@@ -90,5 +90,12 @@ public class TestRomanNumerals {
 		assertEquals(13, num);		
 		
 	}
+	@Test
+	public void testXX_twenty(){
+		int num=romans.convertToInteger("XX");
+		assertEquals(20, num);		
+		
+	}
+
 	
 }
