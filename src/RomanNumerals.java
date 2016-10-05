@@ -1,3 +1,4 @@
+import java.lang.*;
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
@@ -36,8 +37,8 @@ public class RomanNumerals {
 	}
 	
 	  public static int processInt(int rmToInt, int lastNumber, int lastRmToInt) {
-	        if (lastNumber > rmToInt) {
-	            return lastRmToInt - rmToInt;
+	        if (lastNumber < rmToInt) {
+	            return Math.abs((lastRmToInt - rmToInt));
 	        } else {
 	            return lastRmToInt + rmToInt;
 	        }

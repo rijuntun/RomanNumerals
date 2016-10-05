@@ -29,3 +29,17 @@ RefactoringAction 1475667497302 TestRomanNumerals.java RENAME testV_five()/2=>vo
 RefactoringAction 1475667500406 TestRomanNumerals.java RENAME testVI_five()=>void testVI_sixe() METHOD
 RefactoringAction 1475667501451 TestRomanNumerals.java RENAME testVI_sixe()=>void testVI_six() METHOD
 EditAction 1475667516724 TestRomanNumerals.java 907 7 13 7
+UnitTestCaseAction 1475667518536 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475667518536 TestRomanNumerals.java FAIL
+RefactoringAction 1475668096647 RomanNumerals.java ADD import ja IMPORT
+RefactoringAction 1475668099177 RomanNumerals.java ADD import java.lo IMPORT
+RefactoringAction 1475668101191 RomanNumerals.java RENAME import java.lo=>import java.la IMPORT
+RefactoringAction 1475668108217 RomanNumerals.java ADD import java.lang.m IMPORT
+RefactoringAction 1475668109756 RomanNumerals.java RENAME import java.lang.m=>import java.lang.math IMPORT
+RefactoringAction 1475668138801 RomanNumerals.java ADD import java.lang.* IMPORT
+RefactoringAction 1475668236571 RomanNumerals.java ADD import java.l IMPORT
+RefactoringAction 1475668240190 RomanNumerals.java RENAME import java.l=>import java.lang.* IMPORT
+RefactoringAction 1475668240190 RomanNumerals.java RENAME import java.l=>import java.lang.* IMPORT
+UnitTestCaseAction 1475668283717 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668283717 TestRomanNumerals.java FAIL
+EditAction 1475668426925 RomanNumerals.java 853 2 6 0
