@@ -104,6 +104,13 @@ public class TestRomanNumerals {
 	}
 	
 	
+	@Test
+	public void testXL_fourty(){
+		int num=romans.convertToInteger("XL");
+		assertEquals(40, num);		
+		
+	}
+
 
 	
 }

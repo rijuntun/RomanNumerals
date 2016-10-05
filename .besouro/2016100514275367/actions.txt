@@ -115,3 +115,11 @@ EditAction 1475668966309 TestRomanNumerals.java 1690 14 27 14
 UnitTestCaseAction 1475668967919 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475668967919 TestRomanNumerals.java FAIL
 EditAction 1475669010241 RomanNumerals.java 1090 2 6 0
+UnitTestCaseAction 1475669012522 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669012522 TestRomanNumerals.java OK
+RefactoringAction 1475669094609 TestRomanNumerals.java RENAME <initializer /1>=>void testL_fiftty()/2 METHOD
+RefactoringAction 1475669099243 TestRomanNumerals.java RENAME testL_fiftty()/2=>void testXL_fiftty() METHOD
+RefactoringAction 1475669101817 TestRomanNumerals.java RENAME testXL_fiftty()=>void testXL_f() METHOD
+RefactoringAction 1475669103361 TestRomanNumerals.java RENAME testXL_f()=>void testXL_fou() METHOD
+RefactoringAction 1475669104391 TestRomanNumerals.java RENAME testXL_fou()=>void testXL_fourty() METHOD
+EditAction 1475669115810 TestRomanNumerals.java 1802 15 29 15
