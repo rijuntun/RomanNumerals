@@ -81,7 +81,10 @@ public class RomanNumerals {
 	        if (lastNumber < rmToInt) {
       	
 	        		//return lastRmToInt+rmToInt;
-	            return Math.abs((cumulativeValue - rmToInt));
+	        	if (nextInt>rmToInt)
+	        		return (cumulativeValue+rmToInt);
+	        	else
+	        		return Math.abs((cumulativeValue - rmToInt));
 	        } else {
 	            return cumulativeValue + rmToInt;
 	        }
