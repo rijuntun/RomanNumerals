@@ -166,6 +166,12 @@ public class TestRomanNumerals {
 		
 	}
 
+	@Test
+	public void testMC_thousand_one_hundred(){
+		int num=romans.convertToInteger("MC");
+		assertEquals(1100, num);		
+		
+	}
 
 
 
