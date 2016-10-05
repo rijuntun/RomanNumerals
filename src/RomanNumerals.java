@@ -18,6 +18,8 @@ public class RomanNumerals {
 		    	retval=processInt(100,lastNumber,retval);
 		    	lastNumber=100;
 		    }
+		    break;
+		    
 		    case 'L':
 		    {
 			    retval=processInt(50,lastNumber,retval);
