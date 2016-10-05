@@ -50,4 +50,11 @@ public class TestRomanNumerals {
 		
 	}
 
+	@Test
+	public void testVI_six(){
+		int num=romans.convertToInteger("VI");
+		assertEquals(6, num);
+		
+	}
+	
 }

@@ -22,3 +22,10 @@ EditAction 1475667362808 RomanNumerals.java 822 2 6 0
 UnitTestCaseAction 1475667365011 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475667365011 TestRomanNumerals.java FAIL
 EditAction 1475667404744 RomanNumerals.java 821 2 6 0
+UnitTestCaseAction 1475667406525 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475667406525 TestRomanNumerals.java FAIL
+RefactoringAction 1475667491109 TestRomanNumerals.java ADD void testV_five()/2 METHOD
+RefactoringAction 1475667497302 TestRomanNumerals.java RENAME testV_five()/2=>void testVI_five() METHOD
+RefactoringAction 1475667500406 TestRomanNumerals.java RENAME testVI_five()=>void testVI_sixe() METHOD
+RefactoringAction 1475667501451 TestRomanNumerals.java RENAME testVI_sixe()=>void testVI_six() METHOD
+EditAction 1475667516724 TestRomanNumerals.java 907 7 13 7
