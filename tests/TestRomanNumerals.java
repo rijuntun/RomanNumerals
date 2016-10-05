@@ -130,6 +130,13 @@ public class TestRomanNumerals {
 		assertEquals(90, num);		
 		
 	}
+	@Test
+	public void testXX_two_hundred(){
+		int num=romans.convertToInteger("XX");
+		assertEquals(200, num);		
+		
+	}
+
 
 
 	
