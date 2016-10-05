@@ -73,6 +73,8 @@ public class RomanNumerals {
 	
 	  public static int processInt(int rmToInt, int lastNumber, int lastRmToInt) {
 	        if (lastNumber < rmToInt) {
+	        	if(rmToInt==5 ||rmToInt==50||rmToInt==500)
+	        		return lastRmToInt+rmToInt;
 	            return Math.abs((lastRmToInt - rmToInt));
 	        } else {
 	            return lastRmToInt + rmToInt;
