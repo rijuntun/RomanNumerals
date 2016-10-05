@@ -190,3 +190,4 @@ RefactoringAction 1475669978367 TestRomanNumerals.java RENAME testD_five_hundred
 RefactoringAction 1475669988149 TestRomanNumerals.java RENAME testDC_five_hundred()=>void testDC__hundred() METHOD
 RefactoringAction 1475669989693 TestRomanNumerals.java RENAME testDC__hundred()=>void testDC_six_hundred() METHOD
 EditAction 1475669999131 TestRomanNumerals.java 2616 22 43 22
+EditAction 1475669999193 RomanNumerals.java 1345 2 6 0
