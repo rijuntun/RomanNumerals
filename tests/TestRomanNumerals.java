@@ -136,6 +136,14 @@ public class TestRomanNumerals {
 		assertEquals(200, num);		
 		
 	}
+	
+	@Test
+	public void testD_five_hundred(){
+		int num=romans.convertToInteger("D");
+		assertEquals(500, num);		
+		
+	}
+
 
 
 
