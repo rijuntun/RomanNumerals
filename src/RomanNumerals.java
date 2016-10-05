@@ -36,7 +36,7 @@ public class RomanNumerals {
 	}
 	
 	  public static int processInt(int rmToInt, int lastNumber, int lastRmToInt) {
-	        if (lastNumber <= rmToInt) {
+	        if (lastNumber > rmToInt) {
 	            return lastRmToInt - rmToInt;
 	        } else {
 	            return lastRmToInt + rmToInt;
