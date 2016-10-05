@@ -52,3 +52,13 @@ RefactoringAction 1475668473728 TestRomanNumerals.java RENAME testVII_si()=>void
 RefactoringAction 1475668474758 TestRomanNumerals.java RENAME testVII_s()=>void testVII_se() METHOD
 RefactoringAction 1475668477332 TestRomanNumerals.java RENAME testVII_se()=>void testVII_seeven() METHOD
 EditAction 1475668490545 TestRomanNumerals.java 1017 8 15 8
+UnitTestCaseAction 1475668493029 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668493029 TestRomanNumerals.java OK
+RefactoringAction 1475668505634 TestRomanNumerals.java ADD void testVII_seeven()/2 METHOD
+RefactoringAction 1475668510267 TestRomanNumerals.java RENAME testVII_seeven()/2=>void testVII_seven() METHOD
+RefactoringAction 1475668513371 TestRomanNumerals.java RENAME testVII_seeven()=>void testVIIseeven() METHOD
+RefactoringAction 1475668514416 TestRomanNumerals.java RENAME testVIIseeven()=>void testVIIIseeven() METHOD
+RefactoringAction 1475668515961 TestRomanNumerals.java RENAME testVIIIseeven()=>void testVIII_eiseeven() METHOD
+RefactoringAction 1475668516990 TestRomanNumerals.java RENAME testVIII_eiseeven()=>void testVIII_eightseeven() METHOD
+RefactoringAction 1475668519050 TestRomanNumerals.java RENAME testVIII_eightseeven()=>void testVIII_eight() METHOD
+EditAction 1475668530828 TestRomanNumerals.java 1128 9 17 9

@@ -58,9 +58,16 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void testVII_seeven(){
+	public void testVII_seven(){
 		int num=romans.convertToInteger("VII");
 		assertEquals(7, num);
 		
 	}
+	@Test
+	public void testVIII_eight(){
+		int num=romans.convertToInteger("VIII");
+		assertEquals(8, num);
+		
+	}
+
 }
