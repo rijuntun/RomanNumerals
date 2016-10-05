@@ -178,3 +178,15 @@ EditAction 1475669781567 TestRomanNumerals.java 2379 20 39 20
 UnitTestCaseAction 1475669783364 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475669783364 TestRomanNumerals.java FAIL
 EditAction 1475669818714 RomanNumerals.java 1338 2 6 0
+UnitTestCaseAction 1475669820807 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669820807 TestRomanNumerals.java OK
+RefactoringAction 1475669932035 TestRomanNumerals.java ADD void testD_five_hundred()/2 METHOD
+RefactoringAction 1475669952112 TestRomanNumerals.java RENAME testD_five_hundred()/2=>void testCD_five_hundred() METHOD
+RefactoringAction 1475669955201 TestRomanNumerals.java RENAME testCD_five_hundred()=>void testCD_fi_hundred() METHOD
+RefactoringAction 1475669956231 TestRomanNumerals.java RENAME testCD_fi_hundred()=>void testCD_f_hundred() METHOD
+RefactoringAction 1475669958290 TestRomanNumerals.java RENAME testCD_f_hundred()=>void testCD_fourh_hundred() METHOD
+RefactoringAction 1475669972705 TestRomanNumerals.java ADD void testD_five_hundred()/2 METHOD
+RefactoringAction 1475669978367 TestRomanNumerals.java RENAME testD_five_hundred()/2=>void testDC_five_hundred() METHOD
+RefactoringAction 1475669988149 TestRomanNumerals.java RENAME testDC_five_hundred()=>void testDC__hundred() METHOD
+RefactoringAction 1475669989693 TestRomanNumerals.java RENAME testDC__hundred()=>void testDC_six_hundred() METHOD
+EditAction 1475669999131 TestRomanNumerals.java 2616 22 43 22

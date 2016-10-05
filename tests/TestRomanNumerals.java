@@ -144,6 +144,19 @@ public class TestRomanNumerals {
 		
 	}
 
+	@Test
+	public void testCD_fourh_hundred(){
+		int num=romans.convertToInteger("CD");
+		assertEquals(400, num);		
+		
+	}
+
+	@Test
+	public void testDC_six_hundred(){
+		int num=romans.convertToInteger("DC");
+		assertEquals(600, num);		
+		
+	}
 
 
 
