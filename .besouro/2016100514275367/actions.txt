@@ -18,3 +18,4 @@ UnitTestSessionAction 1475667122193 TestRomanNumerals.java OK
 RefactoringAction 1475667134892 TestRomanNumerals.java ADD void testIV_four() METHOD
 EditAction 1475667143518 TestRomanNumerals.java 800 6 11 6
 EditAction 1475667351124 RomanNumerals.java 821 2 6 0
+EditAction 1475667362808 RomanNumerals.java 822 2 6 0
