@@ -16,15 +16,15 @@ public class RomanNumerals {
 		    case'V':
 		    {
 		    	
-		    	retval=processInt(5,lastNumber,lastRmToInt);
-		    	lastRmToInt=5;
+		    	retval=processInt(5,lastNumber,retval);
+		    	lastNumber=5;
 		    	
 		    }
 		    break;
 		    case 'I':
 		    {
-		    	retval=processInt(1,lastNumber,lastRmToInt);
-		    	lastRmToInt=1;
+		    	retval=processInt(1,lastNumber,retval);
+		    	lastNumber=1;
 		    }	
 		    break;
 		    }
