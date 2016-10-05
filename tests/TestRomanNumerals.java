@@ -124,6 +124,12 @@ public class TestRomanNumerals {
 		assertEquals(100, num);		
 		
 	}
+	@Test
+	public void testXC_ninety(){
+		int num=romans.convertToInteger("XC");
+		assertEquals(90, num);		
+		
+	}
 
 
 	

@@ -148,3 +148,9 @@ EditAction 1475669463092 RomanNumerals.java 1194 2 6 0
 UnitTestCaseAction 1475669464686 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475669464686 TestRomanNumerals.java FAIL
 EditAction 1475669508803 RomanNumerals.java 1214 2 6 0
+UnitTestCaseAction 1475669510538 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669510538 TestRomanNumerals.java OK
+RefactoringAction 1475669647943 TestRomanNumerals.java ADD void testXL_fourty()/2 METHOD
+RefactoringAction 1475669653091 TestRomanNumerals.java RENAME testXL_fourty()/2=>void testXC_fourty() METHOD
+RefactoringAction 1475669658754 TestRomanNumerals.java RENAME testXC_fourty()=>void testXC_ninety() METHOD
+EditAction 1475669671780 TestRomanNumerals.java 2142 18 35 18
