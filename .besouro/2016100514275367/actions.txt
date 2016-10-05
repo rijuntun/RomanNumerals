@@ -228,3 +228,11 @@ EditAction 1475670444816 TestRomanNumerals.java 2977 25 49 25
 UnitTestCaseAction 1475670446676 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475670446676 TestRomanNumerals.java FAIL
 EditAction 1475671055983 RomanNumerals.java 1557 2 6 0
+UnitTestCaseAction 1475671059028 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475671059028 TestRomanNumerals.java FAIL
+RefactoringAction 1475673574961 RomanNumerals.java RENAME processInt(int, int, int)=>static int processInt(int, int, int, int) METHOD
+RefactoringAction 1475673574977 RomanNumerals.java RENAME processInt(int, int, int)=>static int processInt(int, int, int, int) METHOD
+RefactoringAction 1475673623867 RomanNumerals.java RENAME processInt(int, int, int, int)=>static int processInt(int, int) METHOD
+RefactoringAction 1475673626488 RomanNumerals.java RENAME processInt(int, int)=>static int processInt(int, int, int, int) METHOD
+RefactoringAction 1475673626488 RomanNumerals.java RENAME processInt(int, int)=>static int processInt(int, int, int, int) METHOD
+EditAction 1475673697000 RomanNumerals.java 1542 2 6 0

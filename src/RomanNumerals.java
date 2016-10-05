@@ -71,13 +71,13 @@ public class RomanNumerals {
 		
 	}
 	
-	  public static int processInt(int rmToInt, int lastNumber, int lastRmToInt) {
+	  public static int processInt(int rmToInt, int lastNumber, int cumulativeValue, int nextInt) {
 	        if (lastNumber < rmToInt) {
-	        	if(rmToInt==5 ||rmToInt==50||rmToInt==500)
-	        		return lastRmToInt+rmToInt;
-	            return Math.abs((lastRmToInt - rmToInt));
+	        	
+	        		//return lastRmToInt+rmToInt;
+	            return Math.abs((cumulativeValue - rmToInt));
 	        } else {
-	            return lastRmToInt + rmToInt;
+	            return cumulativeValue + rmToInt;
 	        }
 	    }
 }
