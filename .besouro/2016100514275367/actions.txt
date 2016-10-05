@@ -201,3 +201,13 @@ EditAction 1475670047759 TestRomanNumerals.java 2732 23 45 23
 UnitTestCaseAction 1475670049931 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475670049931 TestRomanNumerals.java FAIL
 EditAction 1475670084547 RomanNumerals.java 1465 2 6 0
+UnitTestCaseAction 1475670093317 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670093317 TestRomanNumerals.java OK
+RefactoringAction 1475670114752 TestRomanNumerals.java REMOVE testDC_six_hundred() METHOD
+RefactoringAction 1475670121444 TestRomanNumerals.java RENAME testCD_fourh_hundred()=>void testCD_four_hundred() METHOD
+RefactoringAction 1475670125048 TestRomanNumerals.java ADD void testDC_six_hundred() METHOD
+RefactoringAction 1475670130711 TestRomanNumerals.java RENAME testDC_six_hundred()=>void testDC_nine_hundred() METHOD
+RefactoringAction 1475670133285 TestRomanNumerals.java RENAME testDC_nine_hundred()=>void testC_nine_hundred() METHOD
+RefactoringAction 1475670136888 TestRomanNumerals.java RENAME testC_nine_hundred()=>void testCC_nine_hundred() METHOD
+RefactoringAction 1475670138433 TestRomanNumerals.java RENAME testCC_nine_hundred()=>void testCM_nine_hundred() METHOD
+EditAction 1475670149945 TestRomanNumerals.java 2733 23 45 23

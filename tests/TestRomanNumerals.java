@@ -145,23 +145,24 @@ public class TestRomanNumerals {
 	}
 
 	@Test
-	public void testCD_fourh_hundred(){
+	public void testCD_four_hundred(){
 		int num=romans.convertToInteger("CD");
 		assertEquals(400, num);		
 		
 	}
 
-	@Test
-	public void testDC_six_hundred(){
-		int num=romans.convertToInteger("DC");
-		assertEquals(600, num);		
-		
-	}
 	
 	@Test
 	public void testM_thousand(){
 		int num=romans.convertToInteger("M");
 		assertEquals(1000, num);		
+		
+	}
+
+	@Test
+	public void testCM_nine_hundred(){
+		int num=romans.convertToInteger("CM");
+		assertEquals(900, num);		
 		
 	}
 
