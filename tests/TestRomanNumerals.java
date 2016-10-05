@@ -70,4 +70,10 @@ public class TestRomanNumerals {
 		
 	}
 
+	@Test
+	public void testIX_nine(){
+		int num=romans.convertToInteger("IX");
+		assertEquals(9, num);
+		
+	}
 }
