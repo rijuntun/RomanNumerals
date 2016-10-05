@@ -14,6 +14,13 @@ public class RomanNumerals {
 		    
 		    switch  (c){
 		    
+		    case 'M':
+		    {
+		    	retval=processInt(1000,lastNumber,retval);
+		    	lastNumber=1000;
+		    }
+		    break;
+
 		    case 'D':
 		    {
 		    	retval=processInt(500,lastNumber,retval);

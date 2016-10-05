@@ -198,3 +198,6 @@ RefactoringAction 1475670025716 TestRomanNumerals.java RENAME testD_five_hundred
 RefactoringAction 1475670026746 TestRomanNumerals.java RENAME test_five_hundred()=>void testM_five_hundred() METHOD
 RefactoringAction 1475670033438 TestRomanNumerals.java RENAME testM_five_hundred()=>void testM_thousand() METHOD
 EditAction 1475670047759 TestRomanNumerals.java 2732 23 45 23
+UnitTestCaseAction 1475670049931 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670049931 TestRomanNumerals.java FAIL
+EditAction 1475670084547 RomanNumerals.java 1465 2 6 0
