@@ -111,6 +111,12 @@ public class TestRomanNumerals {
 		
 	}
 
+	@Test
+	public void testLXXX_eighty(){
+		int num=romans.convertToInteger("LXXX");
+		assertEquals(80, num);		
+		
+	}
 
 	
 }

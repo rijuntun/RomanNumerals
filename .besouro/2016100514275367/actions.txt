@@ -123,3 +123,12 @@ RefactoringAction 1475669101817 TestRomanNumerals.java RENAME testXL_fiftty()=>v
 RefactoringAction 1475669103361 TestRomanNumerals.java RENAME testXL_f()=>void testXL_fou() METHOD
 RefactoringAction 1475669104391 TestRomanNumerals.java RENAME testXL_fou()=>void testXL_fourty() METHOD
 EditAction 1475669115810 TestRomanNumerals.java 1802 15 29 15
+UnitTestCaseAction 1475669117326 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669117326 TestRomanNumerals.java OK
+RefactoringAction 1475669133722 TestRomanNumerals.java ADD void testXL_fourty()/2 METHOD
+RefactoringAction 1475669137325 TestRomanNumerals.java RENAME testXL_fourty()/2=>void testL_fourty() METHOD
+RefactoringAction 1475669139899 TestRomanNumerals.java RENAME testL_fourty()=>void testLXXX_fourty() METHOD
+RefactoringAction 1475669143503 TestRomanNumerals.java RENAME testLXXX_fourty()=>void testLXXX_eigfourty() METHOD
+RefactoringAction 1475669144532 TestRomanNumerals.java RENAME testLXXX_eigfourty()=>void testLXXX_eightyfourty() METHOD
+RefactoringAction 1475669147106 TestRomanNumerals.java RENAME testLXXX_eightyfourty()=>void testLXXX_eighty() METHOD
+EditAction 1475669162316 TestRomanNumerals.java 1917 16 31 16
