@@ -13,3 +13,7 @@ RefactoringAction 1475667114796 TestRomanNumerals.java REMOVE testIV_four() METH
 RefactoringAction 1475667114796 TestRomanNumerals.java REMOVE testV_five() METHOD
 RefactoringAction 1475667118399 TestRomanNumerals.java ADD void testV_five() METHOD
 EditAction 1475667120677 TestRomanNumerals.java 804 5 9 5
+UnitTestCaseAction 1475667122193 TestRomanNumerals.java OK
+UnitTestSessionAction 1475667122193 TestRomanNumerals.java OK
+RefactoringAction 1475667134892 TestRomanNumerals.java ADD void testIV_four() METHOD
+EditAction 1475667143518 TestRomanNumerals.java 800 6 11 6

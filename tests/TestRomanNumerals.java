@@ -35,14 +35,14 @@ public class TestRomanNumerals {
 		assertEquals(3,num);
 		
 	}
-	/*
+	
 	@Test
 	public void testIV_four(){
 		int num=romans.convertToInteger("IV");
 		assertEquals(4, num);
 		
 	}
-*/
+
 	@Test
 	public void testV_five(){
 		int num=romans.convertToInteger("V");
