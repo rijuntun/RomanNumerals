@@ -157,6 +157,14 @@ public class TestRomanNumerals {
 		assertEquals(600, num);		
 		
 	}
+	
+	@Test
+	public void testM_thousand(){
+		int num=romans.convertToInteger("M");
+		assertEquals(1000, num);		
+		
+	}
+
 
 
 
