@@ -13,6 +13,12 @@ public class RomanNumerals {
 		    char c = romanNum.charAt(i);
 		    
 		    switch  (c){
+		    case 'L':
+		    {
+			    retval=processInt(50,lastNumber,retval);
+			    lastNumber=50;
+		    }
+		    break;
 		    case 'X':
 		    {
 			    retval=processInt(10,lastNumber,retval);
