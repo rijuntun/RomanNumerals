@@ -96,6 +96,14 @@ public class TestRomanNumerals {
 		assertEquals(20, num);		
 		
 	}
+	@Test
+	public void testL_fiftty(){
+		int num=romans.convertToInteger("L");
+		assertEquals(50, num);		
+		
+	}
+	
+	
 
 	
 }

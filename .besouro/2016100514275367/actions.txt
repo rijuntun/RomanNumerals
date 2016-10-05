@@ -99,3 +99,16 @@ RefactoringAction 1475668846404 TestRomanNumerals.java RENAME testXX()=>void tes
 RefactoringAction 1475668847449 TestRomanNumerals.java RENAME testXX_te()=>void testXX_tw() METHOD
 RefactoringAction 1475668849524 TestRomanNumerals.java RENAME testXX_tw()=>void testXX_twenty() METHOD
 EditAction 1475668869804 TestRomanNumerals.java 1577 13 25 13
+UnitTestCaseAction 1475668871320 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668871320 TestRomanNumerals.java OK
+RefactoringAction 1475668910289 TestRomanNumerals.java ADD void testXX_twenty()/2 METHOD
+RefactoringAction 1475668915952 TestRomanNumerals.java RENAME testXX_twenty()/2=>void testX() METHOD
+RefactoringAction 1475668917496 TestRomanNumerals.java RENAME testX()=>void testX_() METHOD
+RefactoringAction 1475668919041 TestRomanNumerals.java RENAME testX_()=>void testX() METHOD
+RefactoringAction 1475668921100 TestRomanNumerals.java RENAME testX()=>void testXL() METHOD
+RefactoringAction 1475668922660 TestRomanNumerals.java RENAME testXL()=>void testXL_() METHOD
+RefactoringAction 1475668926263 TestRomanNumerals.java RENAME testXL_()=>void testXL_fourty() METHOD
+RefactoringAction 1475668944812 TestRomanNumerals.java RENAME testXL_fourty()=>void testL_fourty() METHOD
+RefactoringAction 1475668948416 TestRomanNumerals.java RENAME testL_fourty()=>void testL_fiftourty() METHOD
+RefactoringAction 1475668952534 TestRomanNumerals.java RENAME testL_fiftourty()=>void testL_fiftty() METHOD
+EditAction 1475668966309 TestRomanNumerals.java 1690 14 27 14
