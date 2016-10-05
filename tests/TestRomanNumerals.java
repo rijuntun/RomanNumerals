@@ -57,4 +57,10 @@ public class TestRomanNumerals {
 		
 	}
 	
+	@Test
+	public void testVII_seeven(){
+		int num=romans.convertToInteger("VII");
+		assertEquals(7, num);
+		
+	}
 }
