@@ -132,7 +132,7 @@ public class TestRomanNumerals {
 	}
 	@Test
 	public void testXX_two_hundred(){
-		int num=romans.convertToInteger("XX");
+		int num=romans.convertToInteger("CC");
 		assertEquals(200, num);		
 		
 	}
