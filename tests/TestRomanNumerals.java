@@ -73,7 +73,15 @@ public class TestRomanNumerals {
 	@Test
 	public void testIX_nine(){
 		int num=romans.convertToInteger("IX");
-		assertEquals(9, num);
+		assertEquals(9, num);		
 		
 	}
+	
+	@Test
+	public void testX_ten(){
+		int num=romans.convertToInteger("X");
+		assertEquals(10, num);		
+		
+	}
+
 }
