@@ -79,7 +79,7 @@ public class RomanNumerals {
 	
 	  public static int processInt(int rmToInt, int lastNumber, int cumulativeValue, int nextInt) {
 	        if (lastNumber < rmToInt) {
-	        	
+      	
 	        		//return lastRmToInt+rmToInt;
 	            return Math.abs((cumulativeValue - rmToInt));
 	        } else {
