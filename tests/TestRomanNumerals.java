@@ -84,4 +84,11 @@ public class TestRomanNumerals {
 		
 	}
 
+	@Test
+	public void testXIII_thiirteen(){
+		int num=romans.convertToInteger("XIII");
+		assertEquals(13, num);		
+		
+	}
+	
 }

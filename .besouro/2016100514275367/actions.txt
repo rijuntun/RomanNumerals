@@ -82,3 +82,11 @@ RefactoringAction 1475668738321 TestRomanNumerals.java RENAME testIX_nine()/2=>v
 RefactoringAction 1475668741410 TestRomanNumerals.java RENAME testX_nine()=>void testX_tenne() METHOD
 RefactoringAction 1475668742954 TestRomanNumerals.java RENAME testX_tenne()=>void testX_ten() METHOD
 EditAction 1475668754389 TestRomanNumerals.java 1345 11 21 11
+UnitTestCaseAction 1475668756794 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668756794 TestRomanNumerals.java OK
+RefactoringAction 1475668774344 TestRomanNumerals.java ADD void testX_ten()/2 METHOD
+RefactoringAction 1475668779492 TestRomanNumerals.java RENAME testX_ten()/2=>void testXII_ten() METHOD
+RefactoringAction 1475668781552 TestRomanNumerals.java RENAME testXII_ten()=>void testXIII_ten() METHOD
+RefactoringAction 1475668785155 TestRomanNumerals.java RENAME testXIII_ten()=>void testXIII_thiirteenten() METHOD
+RefactoringAction 1475668786700 TestRomanNumerals.java RENAME testXIII_thiirteenten()=>void testXIII_thiirteen() METHOD
+EditAction 1475668799492 TestRomanNumerals.java 1465 12 23 12
