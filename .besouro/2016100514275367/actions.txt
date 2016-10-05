@@ -218,3 +218,10 @@ RefactoringAction 1475670234189 TestRomanNumerals.java RENAME testM_thousand()/2
 RefactoringAction 1475670238822 TestRomanNumerals.java RENAME testMC_thousand()=>void testMC_thousand_() METHOD
 RefactoringAction 1475670244485 TestRomanNumerals.java RENAME testMC_thousand_()=>void testMC_thousand_one_hundred() METHOD
 EditAction 1475670252441 TestRomanNumerals.java 2860 24 47 24
+UnitTestCaseAction 1475670254004 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670254004 TestRomanNumerals.java OK
+RefactoringAction 1475670416830 TestRomanNumerals.java ADD void testM_thousand()/2 METHOD
+RefactoringAction 1475670422493 TestRomanNumerals.java RENAME testM_thousand()/2=>void test() METHOD
+RefactoringAction 1475670425582 TestRomanNumerals.java RENAME test()=>void testXIV() METHOD
+RefactoringAction 1475670430215 TestRomanNumerals.java RENAME testXIV()=>void testXIV_fourteen() METHOD
+EditAction 1475670444816 TestRomanNumerals.java 2977 25 49 25

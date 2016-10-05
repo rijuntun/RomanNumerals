@@ -173,6 +173,13 @@ public class TestRomanNumerals {
 		
 	}
 
+	@Test
+	public void testXIV_fourteen(){
+		int num=romans.convertToInteger("XIV");
+		assertEquals(14, num);		
+		
+	}
+	
 
 
 	
